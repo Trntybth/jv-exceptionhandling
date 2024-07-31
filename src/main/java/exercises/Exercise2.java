@@ -10,7 +10,6 @@ public class Exercise2 {
         Scanner intInput = new Scanner(System.in);
 
 
-
        while (true) {
         try {
             System.out.println("Enter divisor:");
@@ -21,7 +20,6 @@ public class Exercise2 {
         catch (InputMismatchException e) {
             System.err.println("Invalid input. Please try again.");
             getUserInput();
-            continue;
 
         }
         return integers;
